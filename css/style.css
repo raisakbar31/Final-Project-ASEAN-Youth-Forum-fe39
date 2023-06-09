@@ -4,6 +4,9 @@
     color: white;
     height: 105vh;
 }
+.font-white{
+    color: white;
+}
 .nactive{
     font-weight: lighter;
 }
@@ -253,7 +256,7 @@ font-weight: bolder;
     background-color: red;
     padding: 12px 24px;
     text-decoration: none;
-    color: white;
+    color: rgb(188, 188, 188);
     font-weight: bolder;
     border-radius: 10px;
     transition: color .4s ease;
@@ -261,6 +264,7 @@ font-weight: bolder;
 .button-login:hover{
     transition: color .4s ease;
     background-color: rgb(163, 0, 0);
+    color: rgb(255, 255, 255);
 
 }
 .button-register {
@@ -489,5 +493,200 @@ te
   .container-article{
     margin-top: 10%;
   }
+  /* =======================header information====================== */
+
+
+/******* Common Element CSS Start ******/
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+h2 {
+  margin-bottom: 48px;
+  padding-bottom: 16px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  position: relative;
+  text-transform: capitalize;
+}
+.title-information{
+  color: #111130a8;
+  margin-left: 5%;
+  padding: 24px;
+  font-size: 24px;
+  font-weight: bolder;
+}
+/* -------- Landing page ------- */
+.information-section {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 60px 50px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  /* -------- Landing page ------- */
+  .information-section {
+    margin-top: 50px;
+    padding: 50px 30px 40px;
+  }
+  .information-section .item {
+    margin: 0 12px 60px;
+    width: 240px;
+    height: 330px;
+  }
+  .information-section .item.active {
+    width: 360px;
+  }
+  .information-section .item-desc {
+    transform: translateY(calc(100% - 42px));
+    -webkit-transform: translateY(calc(100% - 42px));
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+  h2 {
+    margin-bottom: 20px;
+  }
+ 
+  .information-section {
+    margin-top: 70px;
+    padding: 50px 30px 40px;
+  }
+}
+/* =======================carosel1============== */
+.container-carosel1{
+     margin-left: 9%;
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 0px 15px 56px 7px rgba(150, 150, 150, 0.84);
+}
+.carousel-item img{
+    border-radius: 20px;
+}
+
+
+/* ============btn============== */
+
+button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: #e03e0da0;
+    color: white;
+    border-radius: 20px;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+    &.learn-more {
+      width: 12rem;
+      height: auto;
+      .circle {
+        @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+        position: relative;
+        display: block;
+        margin: 0;
+        width: 3rem;
+        height: 3rem;
+        background: $black;
+        border-radius: 1.625rem;
+        .icon {
+          @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+          background: $white;
+          &.arrow {
+            @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+            left: 0.625rem;
+            width: 1.125rem;
+            height: 0.125rem;
+            background: none;
+            &::before {
+              position: absolute;
+              content: '';
+              top: -0.25rem;
+              right: 0.0625rem;
+              width: 0.625rem;
+              height: 0.625rem;
+              border-top: 0.125rem solid #fff;
+              border-right: 0.125rem solid #fff;
+              transform: rotate(45deg);
+            }
+          }
+        }
+      }
+      .button-text {
+        @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 0.75rem 0;
+        margin: 0 0 0 1.85rem;
+        color: $black;
+        font-weight: 700;
+        line-height: 1.6;
+        text-align: center;
+        text-transform: uppercase;
+      }
+    }
+    &:hover {
+      .circle {
+        width: 100%;
+        .icon {
+          &.arrow {
+          background: $white;
+          transform: translate(1rem, 0);
+          }
+        }
+      }
+      .button-text {
+        color: $white;
+      }
+    }
+  }
   
+.container-information1{
+  margin-left: 4%;
+}
+  .container-konten2{
+    padding-left: 8%;
+    padding-right: 15%;
+    margin-bottom: 24px;
+    width: 100%;
+  }
+
+  .information-section{
+    background-color: #5b5b5b21;
+  }
+  .view-information{
+    background-color: red;
+    padding: 12px 24px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+    margin-left: 65%;
+    margin-right: 2%;
+    margin-top: -20px;
+    
+  }
+  .view-information:hover{
+    box-shadow: 0px 15px 25px 4px rgba(150, 150, 150, 0.65);
+    color: white;
+  }
   
