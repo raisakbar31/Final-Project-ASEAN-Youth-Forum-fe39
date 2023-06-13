@@ -1,0 +1,162 @@
+body{
+
+  }
+  .header{
+    margin-top: -20px;
+    color: white;
+    height: 105vh;
+  }
+  .font-white{
+    color: white;
+  }
+  .nactive{
+    font-weight: lighter;
+  }
+  /* ===================footer================ */
+  
+  footer{
+    margin-top: 200px;
+    margin-left: 0px;
+    margin-right: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    padding-top: 40px;
+    color: #fff;
+  }
+  .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+  }
+  .footer-content p{
+    max-width: 800px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+  }
+  .socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+  }
+  .socials li{
+    margin: 0 10px;
+  }
+  .socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+  
+    border-radius: 50%;
+  
+  }
+  .socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+  
+  
+    transition: color .4s ease;
+  
+  }
+  .socials a:hover i{
+    color: #F87600;
+  }
+  
+  .footer-bottom{
+    background: #000;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+  .footer-bottom p{
+   float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+  }
+  .footer-bottom p a{
+  color:#F87600;
+  font-size: 16px;
+  text-decoration: none;
+  }
+  .footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+  }
+  
+  @media (max-width:500px) {
+  .footer-menu ul{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  }
+  }
+  /* ==================content=================== */
+  .hiasan{
+    position: relative;
+    z-index: -1;
+    margin-top: -50%;
+  }
+  /* =============================================== */
+
+
+/*
+
+
+HTML5 Canvas - Projecting 3D particles to a 2D canvas.
+from rectangleworld.com
+
+
+
+-- I did not code this, just added the jquery slider -- 
+
+-*/
+  /* =================================================== */
+  main {
+    height: -webkit-fill-available;
+    background-position: center; 
+    margin-top: 5%;
+  }
+  .panel {
+    background-color: #fff;
+    border-radius: 0;    
+  }
+  .card {
+    border: 0;
+  }
+  .card-title  {
+    color: #0f4c75;
+  }
+  .card-body {
+    color: #0f4c75;
+  }
+  .form-control {
+    border: 0;
+    border-bottom: 1px solid #0f4c75;
+    border-radius: 0;
+  }
+  .btn-primary {
+    background-color: #0f4c75;
+    color: #fff;
+    border: 0;
+  }
+  #registrate {
+    color: #0f4c75;
+    font-weight: 700;
+  }
