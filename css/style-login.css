@@ -2,7 +2,7 @@ body{
 
   }
   .header{
-    margin-top: -20px;
+
     color: white;
     height: 105vh;
   }
@@ -130,6 +130,7 @@ from rectangleworld.com
   /* =================================================== */
   main {
     height: -webkit-fill-available;
+    background-image: url("header.jpg");
     background-position: center; 
     margin-top: 5%;
   }
@@ -160,3 +161,28 @@ from rectangleworld.com
     color: #0f4c75;
     font-weight: 700;
   }
+
+  /* ===============responsive================= */
+  
+@media screen and (max-width: 375px) {
+  .hiasan{
+    display: none;
+  }
+  main{
+    margin-top: 20%;
+  }
+  }
+  @media screen and (max-width: 480px) {
+      .hiasan{
+    display: none;
+  }
+  main{
+    margin-top: 20%;
+  }
+  }
+    @media screen and (max-width: 1150px) {
+       .hiasan{
+    width: cover;
+  }
+    }
+  
