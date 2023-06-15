@@ -124,8 +124,29 @@
       
                       </div>
                     </div>
-      
-                    <button type="submit" class="btn btn-success btn-lg mb-1">Submit</button>
+                    <!-- Button trigger modal -->
+<button type="button" class="btn btn-success btn-lg mb-1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Submit
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Forum Registration Successful !</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Please check your email to join this forum.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
       
                   </form>
       
@@ -139,7 +160,7 @@
 <!-- ======================================footer============== -->
  <hr>   
  <center style="margin-top: 24px;">
-     <a class="button-login" href="index.html">Kembali Ke Halaman Utama</a>
+     <a class="button-login" href="index.html">Back To Dashboard</a>
  </center>
      <footer style="margin-top: 24px;">
      <div class="footer-content">
