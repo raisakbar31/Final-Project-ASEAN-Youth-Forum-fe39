@@ -281,7 +281,7 @@ button {
         }
       }
       .button-text {
-        color: $white;
+        color: white;
       }
     }
   }
